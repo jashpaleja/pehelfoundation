@@ -41,7 +41,9 @@
   z-index: 1;
 }
 
-.dropdown1-content a:hover {background-color: #f8cacc;}
+.dropdown1-content a:hover {background-color: #f8cacc;color:black}
+.dropdown1-content a{color:white}
+
 
 .dropdown1:hover .dropdown1-content {display: block;}
 body{
