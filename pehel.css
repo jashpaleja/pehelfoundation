@@ -5,9 +5,10 @@
 
 .aboutPehelText{
   font-family: 'Big Shoulders Display', cursive;
-  font-size:22px;
+  font-size:23px;
   word-spacing:6px;
-  color:black;}
+  color:black;  
+  margin-top: 20px;}
 .eventText{
   font-family: 'Noto Sans JP', sans-serif;
   /* font-weight: lighter; */
