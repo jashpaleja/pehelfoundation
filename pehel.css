@@ -6,6 +6,22 @@
   font-family: 'Noto Sans JP', sans-serif;
   /* font-weight: lighter; */
 }
+.ourteamText{
+  font-family: 'Bebas Neue', cursive;
+  color:#f76a6f;
+  font-weight: 900;
+  word-spacing: 5px;
+  font-size: 80px;
+  text-shadow: 2px 2px white;
+}
+.teamHeaderText{
+  font-family: 'Bebas Neue', cursive;
+  color:#f76a6f;
+  font-weight: 900;
+  word-spacing: 5px;
+  font-size: 40px;
+  text-shadow: 1px 1px white;
+}
 .card-title{
   /* font-weight: bolder;   */
   font-family: 'Noto Sans JP', sans-serif, cursive;
@@ -71,7 +87,7 @@ body{
 .eventscard{
   margin-bottom: 40px;
 }.card{
-  border-radius: 20px;
+  border-radius: 10px;
   overflow:hidden
 }
 #stacked-linear {
@@ -85,11 +101,11 @@ body{
 }
 .teamCard{
   /* margin: 20px; */
-  background-color:black;
+  background-color:#fadcdd;
   border-radius:15px;
   margin-bottom: 15px;
-   border:1px solid;
-  box-shadow: 2px 3px white;
+   /* border:1px solid; */
+  box-shadow: 2px 2px #f79498;
 }
 .round-img{
   /* overflow:hidden; */
@@ -103,7 +119,7 @@ body{
   padding-bottom: 10px;
 }
 .teamCardText{
-  color:white;
+  color:#f76a6f;
   margin-left: 10px;
   margin-right: 15px;
   position: relative;
@@ -115,14 +131,32 @@ body{
 .teamMemberName{
 /* text-align: center; */
 top: 30%;
-  -ms-transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+-webkit-transform: translateY(-50%);
+transform: translateY(-50%);
 margin-left: 10px;
-color:white;
+color:#f74f55;
 margin-right: 15;
 position: relative;
 }
-.teamCardtextContainer{
-  
+
+/* about us */
+.riyaImg{
+  /* height:400px; */
+  /* width:280px; */
+  width: 100%;
+}
+.riyaText{
+  /* top: 50%; */
+  /* -ms-transform: translateY(-50%); */
+  /* -webkit-transform: translateY(-50%); */
+  /* transform: translateY(50%); */
+  /* padding: 40% 20% 10% 50px; */
+  margin-left: 10px;
+  margin-right: 15px;
+  position: relative;
+  top: 40%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
